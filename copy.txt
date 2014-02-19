@@ -1,0 +1,71 @@
+Font:
+Merriweather Sans
+
+Sizes based on modularscale.com at 16px, 14px and 2:3
+
+
+Colours (based on flatuicolors.com)
+
+Grey: #95a5a6
+Light blue bg: #ecf0f1
+Blue copy: #2980b9
+Green highlight: #27ae60
+
+
+
+
+TITLE COPY
+
+Your brew, better.
+
+Get 1000s and 1000s of tea brands delivered direct to your door.
+
+
+ABOUT COPY
+
+Search
+
+Find 1000s of brews and blends.
+
+Share
+
+Share your favourite teas with friends.
+
+Shop
+
+Buy securely and get free delivery.
+
+Sup
+
+Sit back and enjoy a nice cup of tea!
+
+
+
+
+QUOTES
+
+
+"TeaTime is 100% indispensible - I now use it to order all my tea."
+
+Dan Howells
+
+"After a long day's work, I love to relax. TeaTime is perfect."
+
+Katie Marcus
+
+"I love ordering tea with TeaTime, it's the best app out there."
+
+Al Monk
+
+
+TABLE
+
+
+How does TeaTime compare?
+
+App, Brands, Price, Delivery
+iTeapot, 200+, £1.99, £9.99
+TeaTime, 1000+, £0.99, Free
+Tea Express, 150+, £2.99, Free
+
+

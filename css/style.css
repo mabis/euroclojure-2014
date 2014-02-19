@@ -1,0 +1,375 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+body {
+	font-family:"Pathway Gothic One", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	color: #333333; 
+}
+
+div.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	height: 75px;
+	background: #252525;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+h1 {
+	float: left;
+	line-height: 75px;
+}
+
+
+h1 img {vertical-align: middle;}
+
+nav {
+	float: right;
+	line-height: 75px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 30px;
+}
+
+nav a:hover {
+	background: #3498db;
+	color: #fff;
+}
+
+/* intro */
+
+section#krakow {
+	height: 480px;
+	background: url(../images/Krakow.png) top center no-repeat #abd6fb;
+	background-attachment: fixed;
+	overflow: hidden;
+	margin-top: 75px;
+	background-size: 100%;
+}
+
+
+div.lead {
+	width: 100%;
+	color: #ffffff;
+	margin-top: 60px;
+	text-align: center;
+}
+
+h2.krakow {
+	font-size: 160px;
+}
+
+h3.krakow {
+	font-size: 34px;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: 400;
+}
+
+
+h2 strong {
+	font-weight: 800;
+}
+
+h3, blockquote {
+	font-size: 21px;
+	font-weight: 700;
+	padding: 0 20px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+/* Info Section */
+
+section#Info {
+	background: #f4f4f4;
+	color: #2980b9;
+}
+
+div.column1 {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: 40px 0;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+div.column p {
+	margin: 0 30px;
+}
+
+
+/* Sponsors Section */
+
+section#Sponsors {
+	color: #95a5a6;
+}
+
+div.column {
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin: 40px 0;
+}
+
+div.column p {
+	margin: 0 30px;
+}
+
+/* Quotes Section */
+
+
+section#speakers {
+	background: #f4f4f4;
+	color: #2980b9;
+}
+
+section#speakers div.column {
+	width: 25%;
+}
+
+section#speakers img{
+	width: 140px;
+	border-radius: 70px;
+	border: 1px 1px 1px 1px solid #000000;
+}
+
+/* Compare section */ 
+
+section#prices {
+	padding: 20px 0 40px 0;
+}
+
+section#prices h3 {
+	text-align: center;
+}
+
+table {
+	width: 100%; 
+	text-align: center;	
+	color: #7f8c8d;
+	background: #ffffff;
+	font-size: 21px;
+}
+
+td {
+	padding: 20px;
+	border-bottom: 1px solid #ecf0f1;
+}
+
+thead {
+	color: #2980b9;
+	font-weight: 700;
+	font-size: 16px; 
+}
+
+thead td {
+	padding: 10px 20px;
+	border-bottom: 1px solid #3498db;
+}
+
+tr.selected {
+	font-weight: 700;
+	color: #3498db;
+}
+
+/* Secton contact */
+
+section#contact {
+	background: #f4f4f4;
+	padding: 40px 0;
+}
+
+form {
+	width:  50%;
+	margin: 0 auto;
+}
+
+form div {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333333;
+	font-weight: bold;
+}
+
+input[type=text], input[type=email] {
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	background: #ffffff;
+	padding: 10px 15px;
+	font-size: 21px;
+	width: 100%;
+}
+
+textarea {
+	padding: 10px;
+	width: 100%;
+	resize: vertical;
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	height: 120px;
+}
+
+input[type=submit] {
+	background: #3498db;
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	color: #95a5a6;
+	font-size: 14px;
+	padding: 40px 0;
+}
+
+a#menu {
+	float: right;
+	background-image: url(../images/menu-sprite.png);
+	background-position: center 0;
+	background-repeat: no-repeat;
+
+	width: 44px;
+	height: 44px;
+
+	display: none;
+
+	margin-top: 15px;
+}
+
+a#menu:hover {
+	background-position: center -50px;
+}
+
+a#menu.off {
+	background-position: center -100px;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 1000px) {
+	div.container {
+		margin: 0 20px;
+	}
+
+	div.container, header {
+		padding: ;
+	}
+
+
+@media screen and (max-width: 800px) {
+	div.column, section#speakers div.column, div.lead, div.iphone {
+		float: none;
+		width: 100%;
+	}
+
+	section#krakow {
+		margin: 0;
+		height: auto;
+		background-size: cover;
+		padding-top: 0;
+	}
+
+	header {
+		height: auto;
+		text-align: center;
+		position: relative;
+	}
+
+	h1 {
+		float: left;
+	}
+
+	h2.krakow {
+		font-size: 100px;
+	}
+
+	nav {
+		float: none;
+		clear: both;
+		margin-bottom: 20px;
+		display: none;
+	}
+
+	nav a {
+		display: block;
+
+	}
+
+	div.lead {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	section#prices table {
+		font-size: 14px
+	}
+
+	td {
+		padding:10px; 
+	}
+
+	section#contact {
+		padding: 20px;
+	}
+
+	form {
+		width: auto;
+	}
+
+	a#menu {
+		display: block; 
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
